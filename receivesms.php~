@@ -36,9 +36,8 @@ function insertSms($sender,$text)
 
 				{
 
-					echo "Hello ".$text.". Thank you for your information.";
-					
-
+					echo "Hello ".$text.". Thank you for your registration.";
+                                        header('location:forward.php?text='.$text.'');
 
 				}
 
